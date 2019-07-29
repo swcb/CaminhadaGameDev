@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     private SpriteRenderer  playerSprite;
     public  float           velocidadeMax;
     public  float           velocidadeMin;
-    public float           velocidadeAtual;
-    public float           aceleracao;
+    public  float           velocidadeAtual;
+    public  float           aceleracao;
     public  bool            flipX;
     
         // Start is called before the first frame update

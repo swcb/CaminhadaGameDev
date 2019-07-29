@@ -6,6 +6,7 @@ public class Gota : MonoBehaviour
 {
 
     private     Rigidbody2D     gotaRb;
+    private     Animator        gotaAnimator;
     private     float           atrito;
     public      float           atritoMax;
     public      Vector3         posicao;
@@ -16,10 +17,10 @@ public class Gota : MonoBehaviour
     {
         
         gotaRb = GetComponent<Rigidbody2D>();
+        gotaAnimator = GetComponent<Animator>();
         gotaRb.gravityScale = 15;
         atrito = Random.Range(3, atritoMax);
         gotaRb.drag = atrito;
-
         posicao = transform.position;
     }
 
@@ -28,6 +29,13 @@ public class Gota : MonoBehaviour
     {
         
     }
+
+    /*void OnTriggerEnter2D(Collider2D colisao) {
+        if(colisao.gameObject.tag == "Chao" || colisao.gameObject.tag == "Player") {
+            gotaRb.gravityScale = 0;
+            gotaAnimator.SetBool("colidiu", true);
+        }
+    }*/
 
     void OnBecameInvisible() {
         Instantiate(gotaPrefab, posicao, transform.localRotation);

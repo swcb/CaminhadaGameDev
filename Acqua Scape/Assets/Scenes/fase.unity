@@ -329,7 +329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -203, y: 599}
+  m_AnchoredPosition: {x: -203, y: 539}
   m_SizeDelta: {x: 244.6, y: 51.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179450499
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 255340148}
   m_Layer: 0
   m_Name: "Ch\xE3o e nuvens"
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -669,7 +669,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: -37.24516}
+  m_Offset: {x: -1, y: -37.193012}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -680,7 +680,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 77.24, y: 14.989677}
+  m_Size: {x: 77.24, y: 15.093971}
   m_EdgeRadius: 0
 --- !u!1 &306365236
 GameObject:
@@ -987,7 +987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184, y: 530}
+  m_AnchoredPosition: {x: -184, y: 470}
   m_SizeDelta: {x: 275, y: 116.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827411563
@@ -1464,7 +1464,7 @@ GameObject:
   - component: {fileID: 1549425891}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

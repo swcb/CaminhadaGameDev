@@ -844,7 +844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Clique na tela
+  m_Text: "Aperte espa\xE7o"
 --- !u!222 &935190838
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -964,7 +964,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ac6d188adc79b4c95da7d405d0919a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 20
+  velocidadeMax: 0
+  velocidadeMin: 0
+  velocidadeAtual: 0
+  aceleracao: 0
   flipX: 0
 --- !u!95 &1549425888
 Animator:

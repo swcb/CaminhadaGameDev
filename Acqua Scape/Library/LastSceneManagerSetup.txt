@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/morreu.unity
+- path: Assets/Scenes/fase.unity
   isLoaded: 1
   isActive: 1

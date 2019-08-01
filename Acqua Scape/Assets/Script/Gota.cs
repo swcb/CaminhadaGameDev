@@ -11,13 +11,13 @@ public class Gota : MonoBehaviour
     public      float           atritoMax;
     public      Vector3         posicao;
     public      GameObject      gotaPrefab;
+    public      GameObject      gotaDesfazendoPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
         
         gotaRb = GetComponent<Rigidbody2D>();
-        gotaAnimator = GetComponent<Animator>();
         gotaRb.gravityScale = 15;
         atrito = Random.Range(3, atritoMax);
         gotaRb.drag = atrito;
@@ -30,16 +30,17 @@ public class Gota : MonoBehaviour
         
     }
 
-    /*void OnTriggerEnter2D(Collider2D colisao) {
-        if(colisao.gameObject.tag == "Chao" || colisao.gameObject.tag == "Player") {
-            gotaRb.gravityScale = 0;
-            gotaAnimator.SetBool("colidiu", true);
-        }
-    }*/
-
-    void OnBecameInvisible() {
+    void OnTriggerEnter2D(Collider2D colisao) {
+        Instantiate(gotaDesfazendoPrefab, transform.position, transform.localRotation);
         Instantiate(gotaPrefab, posicao, transform.localRotation);
         Destroy(this.gameObject);
         pontuacao.pontos += 1;
     }
+
+    /*void OnBecameInvisible() {
+        
+        Instantiate(gotaPrefab, posicao, transform.localRotation);
+        Destroy(this.gameObject);
+        pontuacao.pontos += 1;
+    }*/
 }

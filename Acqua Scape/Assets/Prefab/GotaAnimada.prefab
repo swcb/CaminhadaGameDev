@@ -164,3 +164,5 @@ MonoBehaviour:
   atritoMax: 8
   posicao: {x: 0, y: 0, z: 0}
   gotaPrefab: {fileID: 8975774806385734187}
+  gotaDesfazendoPrefab: {fileID: 3430889705489020061, guid: 5711a72874abe274fb417d3c97fdc30e,
+    type: 3}

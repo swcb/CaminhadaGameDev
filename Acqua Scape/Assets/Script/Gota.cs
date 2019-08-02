@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Gota : MonoBehaviour
 {
 
@@ -16,7 +17,6 @@ public class Gota : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         gotaRb = GetComponent<Rigidbody2D>();
         gotaRb.gravityScale = 15;
         atrito = Random.Range(3, atritoMax);
@@ -31,10 +31,12 @@ public class Gota : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D colisao) {
-        Instantiate(gotaDesfazendoPrefab, transform.position, transform.localRotation);
-        Instantiate(gotaPrefab, posicao, transform.localRotation);
-        Destroy(this.gameObject);
         pontuacao.pontos += 1;
+        Instantiate(gotaDesfazendoPrefab, transform.position, transform.localRotation);
+        //Instantiate(gotaPrefab, posicao, transform.localRotation);
+        //Destroy(this.gameObject);
+        this.transform.position = posicao;
+        this.gameObject.SetActive(false);
     }
 
     /*void OnBecameInvisible() {

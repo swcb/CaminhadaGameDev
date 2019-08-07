@@ -663,7 +663,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -50
+  m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 27.944445, y: 7.8055553, z: 0}
   m_MaxChunkCount: 16
@@ -965,9 +965,10 @@ MonoBehaviour:
   MinX: -22.2
   MaxX: -1.2
   positicaoY: 0
-  temGotaAtiva: 0
   gotaPrefab: {fileID: 8975774806385734187, guid: ef1a74431831a9344af936ebc405dd46,
     type: 3}
+  gotas: []
+  gotaAtiva: 0
 --- !u!1001 &351022726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -979,6 +980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gota4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975774806385734187, guid: ef1a74431831a9344af936ebc405dd46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8975774806385734182, guid: ef1a74431831a9344af936ebc405dd46,
         type: 3}
@@ -1084,7 +1090,7 @@ PrefabInstance:
     - target: {fileID: 767812974911802565, guid: 98e21f78e2f6e9e478ce1fb98b2e1e70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.6
+      value: 49.6
       objectReference: {fileID: 0}
     - target: {fileID: 767812974911802565, guid: 98e21f78e2f6e9e478ce1fb98b2e1e70,
         type: 3}
@@ -1456,6 +1462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gota3
       objectReference: {fileID: 0}
+    - target: {fileID: 8975774806385734187, guid: ef1a74431831a9344af936ebc405dd46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8975774806385734182, guid: ef1a74431831a9344af936ebc405dd46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1726,6 +1737,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gota2
       objectReference: {fileID: 0}
+    - target: {fileID: 8975774806385734187, guid: ef1a74431831a9344af936ebc405dd46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8975774806385734182, guid: ef1a74431831a9344af936ebc405dd46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1827,6 +1843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gota5
       objectReference: {fileID: 0}
+    - target: {fileID: 8975774806385734187, guid: ef1a74431831a9344af936ebc405dd46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8975774806385734182, guid: ef1a74431831a9344af936ebc405dd46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1927,9 +1948,9 @@ GameObject:
   - component: {fileID: 1549425890}
   - component: {fileID: 1549425889}
   - component: {fileID: 1549425888}
-  - component: {fileID: 1549425887}
   - component: {fileID: 1549425886}
   - component: {fileID: 1549425891}
+  - component: {fileID: 1549425887}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1970,11 +1991,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ac6d188adc79b4c95da7d405d0919a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeMax: 25
-  velocidadeMin: 5
+  velocidadeMax: 0
+  velocidadeMin: 0
   velocidadeAtual: 0
   aceleracao: 1.2
   flipX: 0
+  outroGameObject: {fileID: 5828054396299673971, guid: ae2b3b07df42dbf41aa86f9ae3e989bd,
+    type: 3}
 --- !u!95 &1549425888
 Animator:
   serializedVersion: 3
@@ -2030,7 +2053,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: bf416fc3f27ced24b9e50ce194a27561, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

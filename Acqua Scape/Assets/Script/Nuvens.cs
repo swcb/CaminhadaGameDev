@@ -22,9 +22,9 @@ public class Nuvens : MonoBehaviour
 
     // Update is called once per frame
     void Update(){ 
-        if(transform.position.x < -31){
-            Instantiate(nuvemPrefab, posicaoInicial, transform.localRotation);
-            Destroy(this.gameObject);
+        if(transform.position.x < -41){
+            this.transform.position = posicaoInicial;
+            //Destroy(this.gameObject);
         }
     }
 

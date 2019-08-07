@@ -10,7 +10,7 @@ public class SpawnGota1 : MonoBehaviour
     public  float               positicaoY;
     private float               currentSpawn;
     public  GameObject          gotaPrefab;
-    public List<GameObject>    gotas;
+    public  List<GameObject>    gotas;
     public  int                 gotaAtiva;
     
     // Start is called before the first frame update

@@ -14,13 +14,22 @@ public class Player : MonoBehaviour
     public  float           velocidadeAtual;
     public  float           aceleracao;
     public  bool            flipX;
-    
-        // Start is called before the first frame update
-    void Start(){
         
+        //test
+    public GameObject outroGameObject;
+    private ScriptTest outroScript;
+    private ScriptTest maisOutroScript;
+    
+    void Start(){
         playerRb = GetComponent<Rigidbody2D>();
         playerSprite = GetComponent<SpriteRenderer>();
         velocidadeAtual = velocidadeMax;
+            //test
+        //outroScript = GetComponent<ScriptTest>();
+        maisOutroScript = outroGameObject.GetComponent<ScriptTest>();
+        //print("outroScript: " + outroScript.name + " " + outroScript.idade);
+        print("maisOutroScript: " + maisOutroScript.nome + " " + maisOutroScript.idade);
+
     }
 
         // Update is called once per frame

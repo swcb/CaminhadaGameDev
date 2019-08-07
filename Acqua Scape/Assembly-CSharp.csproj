@@ -63,6 +63,7 @@
      <Compile Include="Assets\Script\pontuacaoFinal.cs" />
      <Compile Include="Assets\Script\SpawnGota1.cs" />
      <Compile Include="Assets\Script\SpawnGota1Learn.cs" />
+     <Compile Include="Assets\Tests\ScriptTest.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

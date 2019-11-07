@@ -64,20 +64,47 @@
      <Compile Include="Assets\Script\SpawnGota1.cs" />
      <Compile Include="Assets\Script\SpawnGota1Learn.cs" />
      <Compile Include="Assets\Tests\ScriptTest.cs" />
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Triangle.Runtime">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -281,13 +308,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/201700017662/Documents/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/201700017662/Documents/Willian/CaminhadaGameDev/Acqua Scape/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

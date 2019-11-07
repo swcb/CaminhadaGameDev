@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnGota1 : MonoBehaviour
 {
 
+    public  float               VariacaoX;
     public  float               MinX;
     public  float               MaxX;
     public  float               positicaoY;
@@ -16,8 +17,11 @@ public class SpawnGota1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        print(transform.position);
+        MinX = transform.position.x - VariacaoX;
+        MaxX = transform.position.x + VariacaoX;
         positicaoY = transform.position.y;
-        for(float x = MinX; x <= MaxX; x+=1){
+        for(float x = MinX; x <= MaxX; x+=(float)0.5){
             GameObject temporario = Instantiate(gotaPrefab) as GameObject;
             temporario.transform.position =  new Vector3(x, positicaoY, 0);
             gotas.Add(temporario);
@@ -36,7 +40,7 @@ public class SpawnGota1 : MonoBehaviour
     }
 
     private void Spawn(){
-        int random = Random.Range(0, (int)(MinX-MaxX));
+        int random = Random.Range(0, (int)(MaxX-MinX));
         gotas[random].SetActive(true);
         gotaAtiva = random;
     }

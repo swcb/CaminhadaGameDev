@@ -26,9 +26,9 @@ public class Player : MonoBehaviour
         velocidadeAtual = velocidadeMax;
             //test
         //outroScript = GetComponent<ScriptTest>();
-        maisOutroScript = outroGameObject.GetComponent<ScriptTest>();
+        //maisOutroScript = outroGameObject.GetComponent<ScriptTest>();
         //print("outroScript: " + outroScript.name + " " + outroScript.idade);
-        print("maisOutroScript: " + maisOutroScript.nome + " " + maisOutroScript.idade);
+        //print("maisOutroScript: " + maisOutroScript.nome + " " + maisOutroScript.idade);
 
     }
 
